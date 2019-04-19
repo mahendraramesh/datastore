@@ -1,6 +1,0 @@
-com\mahendra\datastore\DataStore.class
-com\mahendra\datastore\file\FileStore.class
-com\mahendra\datastore\s3\S3Store.class
-com\mahendra\datastore\TYPE.class
-com\mahendra\datastore\DataStoreConfig.class
-com\mahendra\datastore\DataStoreMain.class
