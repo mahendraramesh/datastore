@@ -1,10 +1,10 @@
-### Library for an Abstract Document/Data Store
+# Library for an Abstract Document/Data Store
 
-## Implementations
+### Implementations
 * S3
 * File
 
-## Usage
+### Usage
 
 File Store
 
@@ -14,9 +14,11 @@ DataStore ds = new FileStore(fileStorePath);
 
 // perform various operations using ds
 ds.saveDocument();
+```
 
 S3 Store
 
+```java
 DataStore ds = new S3Store("accessKey", "secretKey", "regionName", "bucketName");
 
 or
